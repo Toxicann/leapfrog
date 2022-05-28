@@ -1,3 +1,148 @@
-table {
+.button-type {
+  float: left;
+}
+
+.component-list,
+.component-list td {
   border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.component-list td {
+  padding: 20px 125px 20px 20px;
+}
+
+.highlighted-box {
+  background-color: #7749f8;
+  color: #ffffff;
+}
+
+.input-form {
+  float: right;
+  width: 67%;
+  margin-top: 65px;
+}
+
+.input-form * {
+  margin: 10px 0px 5px 0px;
+}
+
+#input-bar {
+  width: 40%;
+  height: 25px;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  color: #abb5be;
+}
+
+.input-form select {
+  width: 42%;
+  height: 45px;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  color: #abb5be;
+}
+
+.input-form textarea {
+  width: 40%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  color: #abb5be;
+}
+
+.radio-group,
+.checkboxe-group {
+  margin-top: 100px;
+  margin-bottom: 75px;
+  padding-top: 60px;
+}
+
+.checkboxes {
+  float: left;
+  width: 30%;
+  font-size: 18px;
+}
+
+.checkboxes-inline {
+  float: right;
+  width: 70%;
+  font-size: 18px;
+}
+
+.checkboxes * {
+  margin: 10px;
+}
+
+.checkboxes-inline * {
+  margin: 10px;
+}
+
+#default_checkbox {
+  background-color: #7749f8;
+}
+
+.disabled,
+label[for="disabled_checkbox1"],
+label[for="disabled_checkbox2"],
+label[for="disable"] {
+  color: #757575;
+}
+
+.selected {
+  color: #7749f8;
+  background-color: #ffffff;
+}
+
+.radios {
+  float: left;
+  width: 30%;
+  font-size: 18px;
+}
+
+.inline-radios {
+  float: right;
+  width: 70%;
+  font-size: 18px;
+}
+
+.radios * {
+  margin: 10px;
+}
+
+.inline-radios * {
+  margin: 10px;
+}
+
+#selected_radio::after {
+  color: #7749f8;
+}
+
+.validation {
+  margin-top: 15%;
+  display: block;
+}
+
+.input-success {
+  border-color: #28a745;
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.input-error {
+  /* border-color: #28a745; */
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  border-color: #dc3545;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
