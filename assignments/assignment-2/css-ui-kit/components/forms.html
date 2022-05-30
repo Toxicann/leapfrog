@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./forms.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3 id="site_name">UI KIT</h3>
+        <ul>
+          <li><a href="../index.html">Color</a></li>
+          <li><a href="./typography.html">Typography</a></li>
+          <li><a href="./buttons.html">Buttons</a></li>
+          <li><a href="#">Forms</a></li>
+          <li><a href="./listgroup.html">List Group</a></li>
+          <li><a href="./table.html">Table</a></li>
+          <li><a href="./card.html">Card</a></li>
+        </ul>
+        <form class="search_form">
+          <input class="search" type="text" placeholder="Search" />
+          <div id="search_button">Search</div>
+        </form>
+      </nav>
+    </header>
+    <div class="container">
+      <h1 class="component-name">Forms</h1>
+      <hr />
+
+      <!--  Button section -->
+      <section class="button-type">
+        <h2>Components</h2>
+        <hr />
+        <table class="component-list">
+          <tbody>
+            <tr>
+              <td>Color</td>
+            </tr>
+            <tr>
+              <td>Typography</td>
+            </tr>
+            <tr>
+              <td>Buttons</td>
+            </tr>
+            <tr class="highlighted-box">
+              <td>Forms</td>
+            </tr>
+            <tr>
+              <td>List-Group</td>
+            </tr>
+            <tr>
+              <td>Table</td>
+            </tr>
+            <tr>
+              <td>Card</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- form section  -->
+
+      <section class="input-form">
+        <h2>Input</h2>
+        <input type="text" placeholder="Placeholder" id="input-bar" />
+        <h2>Select menu</h2>
+        <select>
+          <option value="None">Select Menu</option>
+        </select>
+        <h2>Textarea</h2>
+        <textarea placeholder="Write your message here"></textarea>
+        <div class="checkbox-group">
+          <h2>Checkboxes</h2>
+          <div class="checkboxes">
+            <h4>Checkboxes</h4>
+            <input type="checkbox" id="default_checkbox1" class="default" />
+            <label for="default_checkbox1">Default checkbox</label>
+            <br />
+            <input
+              type="checkbox"
+              id="selected_checkbox1"
+              class="selected"
+              checked
+            />
+            <label for="selected_checkbox1">Default checkbox</label>
+            <br />
+            <input
+              type="checkbox"
+              id="disabled_checkbox1"
+              class="disabled"
+              disabled
+            />
+            <label for="disabled_checkbox1">Default (disabled)</label>
+          </div>
+          <div class="checkboxes-inline">
+            <h4>Checkboxes Inline</h4>
+            <input type="checkbox" id="default_checkbox2" class="default" />
+            <label for="default_checkbox2">Default checkbox</label>
+            <input
+              type="checkbox"
+              id="selected_checkbox2"
+              class="selected"
+              checked
+            />
+            <label for="selected_checkbox2">Default checkbox</label>
+            <input
+              type="checkbox"
+              id="disabled_checkbox2"
+              class="disabled"
+              disabled
+            />
+            <label for="disabled_checkbox2">Default (disabled)</label>
+          </div>
+        </div>
+        <div class="radio-group">
+          <h2>Radios</h2>
+          <div class="radios">
+            <h4>Radios</h4>
+            <input type="radio" id="default_radio" />
+            <label for="default">Default Radio</label>
+            <br />
+            <input type="radio" id="selected_radio" checked />
+            <label for="selected_radio">Selected Radio</label>
+            <br />
+            <input type="radio" id="disable" disabled />
+            <label for="disable">Disabled Radio</label>
+          </div>
+          <div class="inline-radios">
+            <h4>Radios Inline</h4>
+            <input type="radio" id="default_radio" />
+            <label for="default">Default Radio</label>
+            <input type="radio" id="selected_radio" checked />
+            <label for="selected_radio">Selected Radio</label>
+            <input type="radio" id="disable" disabled />
+            <label for="disable">Disabled Radio</label>
+          </div>
+        </div>
+        <div class="validation">
+          <h3 class>Validation</h3>
+          <span>Input Success</span><br />
+          <input type="text" class="input-success" /><br />
+          <span>Input Error</span><br />
+          <input type="text" class="input-error" />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
