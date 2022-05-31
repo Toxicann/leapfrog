@@ -458,7 +458,6 @@ footer {
   }
 
   .hot-article {
-    text-align: center;
     float: none;
     width: 50%;
     margin-bottom: 3.125rem;
@@ -643,10 +642,7 @@ footer {
   }
 
   .hot-article {
-    text-align: start;
-    float: none;
     width: 100%;
-    margin-bottom: 3.125rem;
     padding: 0;
   }
 
@@ -674,7 +670,7 @@ footer {
     width: 50%;
     height: 220px;
   }
-
+  /* 
   .nav-bar {
     float: none;
     width: 100%;
@@ -685,7 +681,7 @@ footer {
     left: 100%;
     text-align: center;
     padding: 20vh 0;
-  }
+  } */
 
   .nav-bar > button {
     position: absolute;
