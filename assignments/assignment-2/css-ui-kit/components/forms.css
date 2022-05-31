@@ -104,8 +104,8 @@ label[for="disable"] {
 }
 
 .selected {
-  color: #7749f8;
-  background-color: #ffffff;
+  accent-color: #7749f8;
+  /* background-color: #ffffff; */
 }
 
 .radios {
