@@ -395,6 +395,7 @@ footer {
     position: relative;
     width: 100%;
     text-align: center;
+    margin-bottom: 14px;
   }
 
   .our-work-row {
@@ -429,10 +430,6 @@ footer {
   .secondary-container {
     width: 100%;
     padding: 72px 0px;
-  }
-
-  .article-btn-grp {
-    margin-bottom: 5px;
   }
 
   .blog-article {
