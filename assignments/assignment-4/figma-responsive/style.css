@@ -486,6 +486,10 @@ footer {
     padding-right: 12%;
   }
 
+  .footer-content > P {
+    padding-right: 15%;
+  }
+
   .footer-body .footer-content {
     float: none;
     width: 100%;
