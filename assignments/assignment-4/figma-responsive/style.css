@@ -6,7 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
   width: 100%;
-  max-width: 90rem;
+  max-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -16,9 +16,9 @@ a {
 }
 
 header {
-  padding: 32px;
+  padding: 2rem;
   overflow: hidden;
-  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
 }
 
 .navbar-menu {
@@ -31,7 +31,7 @@ header {
 
 .logo {
   float: left;
-  padding: 10px 8px;
+  padding: 0.625rem 0.5rem;
 }
 
 .nav-bar {
@@ -41,15 +41,15 @@ header {
 .nav-list li {
   float: left;
   list-style-type: none;
-  margin-left: 48px;
-  padding-top: 13.008px;
+  margin-left: 3rem;
+  padding-top: 0.813rem;
   font-weight: 600;
 }
 
 .btn {
-  border-radius: 4px;
-  padding: 16px 30px;
-  margin-right: 8px;
+  border-radius: 0.25rem;
+  padding: 1rem 1.875rem;
+  margin-right: 0.5rem;
   text-decoration: none;
   font-weight: 600;
 }
@@ -69,6 +69,10 @@ header {
   width: 83%;
 }
 
+.container {
+  padding-bottom: 100px;
+}
+
 .container::after {
   content: "";
   clear: both;
@@ -77,45 +81,46 @@ header {
 
 .container img {
   float: right;
-  width: 48%;
-  padding-bottom: 72px;
+  width: 50%;
+  /* padding-bottom: 4.5rem; */
 }
 
 .container .article {
   float: left;
   margin-top: 70.496px;
+  width: 40%;
 }
 
 .container .article h1 {
-  font-size: 36px;
-  line-height: 47.008px;
+  font-size: 2.25rem;
+  line-height: 2.938rem;
   font-style: normal;
   font-weight: 700;
-  width: 500px;
+  width: 31.25rem;
   color: #3b3950;
 }
 
 .container .article p {
-  margin-top: 12px;
-  line-height: 24px;
+  margin-top: 0.75rem;
+  line-height: 1.5rem;
   font-style: normal;
   font-weight: 400;
-  width: 454px;
+  width: 28.375rem;
   color: #797979;
 }
 
 .article-btn-grp {
-  margin-top: 48px;
+  margin-top: 3rem;
 }
 
 .our-work-title {
   position: absolute;
-  width: 196px;
-  height: 57.008px;
+  width: 12.25rem;
+  height: 3.563rem;
   left: 50%;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 57.008px;
+  font-size: 2rem;
+  line-height: 3.563rem;
   transform: translate(-50%, 0);
 }
 
@@ -124,8 +129,8 @@ header {
   font-style: normal;
   text-align: center;
   letter-spacing: 0.01em;
-  margin-top: 169.008px;
-  margin-bottom: 72px;
+  margin-top: 10.563rem;
+  margin-bottom: 4.5rem;
 }
 
 .our-work-row::after {
@@ -140,65 +145,67 @@ header {
 }
 
 .our-work-list:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .our-work-list img {
   /* width: 100%; */
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .our-work-list h2 {
   /* width: 100%; */
   font-weight: 500;
-  font-size: 25.008px;
-  line-height: 38px;
+  font-size: 1.563rem;
+  line-height: 2.375rem;
   color: #3b3950;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .our-work-list p {
   /* width: 100%; */
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #797979;
 }
 
 .secondary-container {
   background-color: #f8f8f8;
-  padding: 72px 0 0 120px;
+  padding: 4.5rem 0 0 0;
   position: relative;
 }
 
 .blog-article {
-  margin-left: 320px;
+  /* margin-left: 20rem; */
   text-align: center;
+  width: 100%;
 }
 
 .blog-article h2 {
-  width: 73.008px;
+  width: 100%;
+  width: 4.563rem;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 45.008px;
+  font-size: 2rem;
+  line-height: 2.813rem;
   letter-spacing: 0.01em;
   color: #3b3950;
-  margin-bottom: 8px;
-  padding-left: 243.008px;
+  margin-bottom: 0.5rem;
+  /* padding-left: 15.188rem; */
 }
 
 .blog-article p {
-  width: 559.008px;
+  width: 100%;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   letter-spacing: 0.01em;
   color: #797979;
 }
 
 .hot-topics {
-  margin-top: 40px;
-  margin-bottom: 71.008px;
+  margin-top: 2.5rem;
+  margin-bottom: 4.438rem;
 }
 
 .hot-topics::after {
@@ -210,43 +217,40 @@ header {
 .hot-article {
   float: left;
   width: 31%;
-}
-
-.hot-article:not(:last-child) {
-  margin-right: 20px;
+  margin-left: 1.25rem;
 }
 
 .hot-article img {
-  border-radius: 4px;
-  margin-bottom: 12px;
+  border-radius: 0.25rem;
+  margin-bottom: 0.75rem;
   width: 100%;
 }
 
 .hot-article h6 {
   width: 100%;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   color: #797979;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .hot-article h3 {
   width: 100%;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 25.008px;
+  font-size: 1.125rem;
+  line-height: 1.563rem;
   letter-spacing: 0.01em;
   color: #3b3950;
-  margin-bottom: 8px;
-  width: 386.672px;
+  margin-bottom: 0.5rem;
+  width: 24.167rem;
 }
 
 .hot-article p {
   width: 100%;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   letter-spacing: 0.01em;
   color: #797979;
 }
@@ -254,7 +258,7 @@ header {
 .view {
   position: relative;
   text-align: center;
-  padding-bottom: 144px;
+  padding-bottom: 9rem;
 }
 
 .view > .btn {
@@ -269,7 +273,7 @@ footer {
   background-color: #292838;
   width: 100%;
   overflow: hidden;
-  font-size: 10px;
+  font-size: 0.625rem;
   color: white;
 }
 
@@ -298,7 +302,7 @@ footer {
 .footer-content > p {
   margin-top: 1.2em;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .footer-body .footer-list {
@@ -354,28 +358,33 @@ footer {
   padding-bottom: 1.7em;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 75rem) {
   .container {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
     display: block;
     overflow: hidden;
     width: 100%;
   }
 
+  .container {
+    padding-bottom: 0;
+  }
+
   .container img {
-    float: right;
+    float: none;
     width: 100%;
     display: block;
   }
 
   .container .article {
-    float: right;
+    float: none;
     margin: 0;
+    width: 100%;
   }
 
   .container .article h1 {
-    font-size: 36px;
-    line-height: 47.008px;
+    font-size: 2.25rem;
+    line-height: 2.938rem;
     font-style: normal;
     font-weight: 700;
     width: 100%;
@@ -383,8 +392,8 @@ footer {
   }
 
   .container .article p {
-    margin-top: 12px;
-    line-height: 24px;
+    margin-top: 0.75rem;
+    line-height: 1.5rem;
     font-style: normal;
     font-weight: 400;
     width: 100%;
@@ -395,12 +404,12 @@ footer {
     position: relative;
     width: 100%;
     text-align: center;
-    margin-bottom: 14px;
+    margin-bottom: 0.875rem;
   }
 
   .our-work-row {
-    margin-top: 229px;
-    margin-bottom: 50px;
+    margin-top: 14.3125rem;
+    margin-bottom: 3.125rem;
   }
 
   .our-work-list {
@@ -411,30 +420,30 @@ footer {
   }
 
   .our-work-list:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     margin-right: 0;
   }
 
   .our-work-list h2 {
-    font-size: 25.008px;
+    font-size: 1.563rem;
   }
 
   .our-work-list p {
     position: relative;
-    width: 427px;
-    height: 56px;
+    width: 26.6875rem;
+    height: 3.5rem;
     left: 50%;
     transform: translate(-50%, 0);
   }
 
   .secondary-container {
     width: 100%;
-    padding: 72px 0px;
+    padding: 4.5rem 0rem;
   }
 
   .blog-article {
     margin-left: 0;
-    margin-bottom: 72px;
+    margin-bottom: 4.5rem;
   }
 
   .blog-article h2 {
@@ -447,7 +456,7 @@ footer {
 
   .blog-article p {
     width: 100%;
-    padding: auto 30px;
+    padding: auto 1.875rem;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
@@ -460,12 +469,12 @@ footer {
   .hot-article {
     float: none;
     width: 50%;
-    margin-bottom: 3.125rem;
+    margin-bottom: 50px;
     padding: 0 25%;
   }
 
   .view {
-    padding-bottom: 72px;
+    padding-bottom: 4.5rem;
   }
 
   .view > .btn {
@@ -525,20 +534,20 @@ footer {
 
   .nav-bar > button {
     position: absolute;
-    top: 3rem;
-    right: 3rem;
+    top: 48px;
+    right: 48px;
   }
 
   .nav-list li {
     float: none;
     margin-right: 0;
-    margin-bottom: 4.8rem;
+    margin-bottom: 76.8px;
   }
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 36rem) {
   .secondary-container {
-    padding: 72px 20px;
+    padding: 4.5rem 1.25rem;
     width: 92.5%;
   }
 
@@ -548,13 +557,13 @@ footer {
   }
 
   .container {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
     display: block;
   }
 
   .container img {
-    height: 347px;
-    padding: 48px 0;
+    height: 21.6875rem;
+    padding: 3rem 0;
     float: none;
     width: 100%;
   }
@@ -565,8 +574,8 @@ footer {
   }
 
   .container .article h1 {
-    font-size: 36px;
-    line-height: 47.008px;
+    font-size: 2.25rem;
+    line-height: 2.938rem;
     font-style: normal;
     font-weight: 700;
     width: 100%;
@@ -574,22 +583,22 @@ footer {
   }
 
   .container .article p {
-    margin-top: 12px;
-    line-height: 24px;
+    margin-top: 0.75rem;
+    line-height: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    width: 388px;
+    width: 24.25rem;
     color: #797979;
   }
 
   .btn {
-    margin-right: 0.5rem;
-    padding: 14px 24px;
+    margin-right: 8px;
+    padding: 0.875rem 1.5rem;
   }
 
   .our-work-row {
-    margin-top: 229px;
-    margin-bottom: 50px;
+    margin-top: 14.3125rem;
+    margin-bottom: 3.125rem;
   }
 
   .our-work-list {
@@ -600,29 +609,29 @@ footer {
   }
 
   .our-work-list:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     margin-right: 0;
   }
 
   .our-work-list h2 {
-    font-size: 25.008px;
+    font-size: 1.563rem;
   }
 
   .our-work-list p {
     position: relative;
-    width: 427px;
-    height: 56px;
+    width: 26.6875rem;
+    height: 3.5rem;
     left: 50%;
     transform: translate(-50%, 0);
   }
 
   .blog-article {
     margin-left: 0;
-    margin-bottom: 72px;
+    margin-bottom: 4.5rem;
   }
 
   .blog-article h2 {
-    width: 73.008px;
+    width: 4.563rem;
     padding-left: 0;
     position: relative;
     left: 50%;
@@ -630,7 +639,7 @@ footer {
   }
 
   .blog-article p {
-    width: 389px;
+    width: 24.3125rem;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
@@ -647,7 +656,7 @@ footer {
   }
 
   .view {
-    padding-bottom: 72px;
+    padding-bottom: 4.5rem;
   }
 
   .footer-body .footer-content {
@@ -668,9 +677,9 @@ footer {
     margin-left: 0;
     margin-top: 4.8em;
     width: 50%;
-    height: 220px;
+    height: 13.75rem;
   }
-  /* 
+
   .nav-bar {
     float: none;
     width: 100%;
@@ -681,17 +690,21 @@ footer {
     left: 100%;
     text-align: center;
     padding: 20vh 0;
-  } */
+  }
 
   .nav-bar > button {
     position: absolute;
-    top: 3rem;
-    right: 3rem;
+    top: 48px;
+    right: 48px;
   }
 
   .nav-list li {
     float: none;
     margin-right: 0;
-    margin-bottom: 4.8rem;
+    margin-bottom: 76.8px;
+  }
+
+  .article-btn-grp {
+    text-align: start;
   }
 }

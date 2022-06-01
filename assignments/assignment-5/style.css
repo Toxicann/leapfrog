@@ -1,0 +1,25 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  padding-bottom: 2.5rem;
+}
+.title h1 {
+  padding: 1.5rem 0;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #152536;
+}
+
+.title hr {
+  border: 1px solid #ced4da;
+}
