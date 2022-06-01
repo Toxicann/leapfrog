@@ -5,3 +5,7 @@
 .float-right {
   float: right;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
