@@ -1,0 +1,32 @@
+/* typography here 
+estd time 20 mins
+time taken 18mins */
+
+.tab-view {
+  padding-bottom: 1.0625rem;
+}
+
+.tab-view li {
+  padding: 0.625rem 1.8125rem;
+  color: #7749f8;
+  list-style-type: none;
+  border: 1px solid #dee2e6;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.tab-view li:first-child {
+  border-bottom: 0;
+  color: #6c757d;
+}
+
+.tab-view li:last-child {
+  border: 0;
+  border-bottom: 1px solid #dee2e6;
+  width: 43%;
+}
+
+article p {
+  line-height: 1.75rem;
+  color: #68717a;
+}

@@ -1,0 +1,51 @@
+/* navbar here
+estd time 30 mins
+time taken 43 mins */
+
+header {
+  background-color: #f8f9fa;
+  padding: 1.5rem 0;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.25rem;
+  padding-top: 0.3rem;
+}
+
+.search {
+  text-align: end;
+}
+
+nav {
+  padding: 0.3rem 0;
+}
+
+nav a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #6c757d;
+}
+
+nav div {
+  padding-top: 0.3rem;
+}
+
+.search * {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid;
+}
+
+.search input {
+  border-color: #dee2e6;
+}
+
+.search button {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+::placeholder {
+  color: #abb5be;
+}

@@ -1,0 +1,133 @@
+/* form here 
+  estd time 70 mins
+  time taken 75 mins */
+
+.components {
+  margin-right: 3.375rem;
+}
+
+.components h3 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+  color: #152536;
+  padding-bottom: 2.1875rem;
+}
+
+.components ul {
+  list-style-type: none;
+}
+
+.component-list li {
+  padding: 1rem;
+  border-radius: 0;
+  border: 0.0625rem solid #dee2e6;
+}
+
+.component-list li:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.component-list li:last-child {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.input-box {
+  margin-bottom: 48px;
+}
+
+.input-box h4 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  color: #152536;
+  margin-bottom: 1rem;
+}
+
+.input-box input {
+  padding: 9px 16px;
+  border: 0.0625rem solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.input-box select {
+  padding: 9px 16px;
+  border: 0.0625rem solid #ced4da;
+  border-radius: 0.25rem;
+  color: #6c757d;
+}
+
+::placeholder {
+  color: #abb5be;
+  line-height: 1.3125rem;
+}
+
+.input-box textarea {
+  resize: none;
+  color: #ced4da;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  padding: 1rem;
+  padding-bottom: 67px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.checkbox-group {
+  margin-right: 50px;
+}
+
+.checkbox-group h4 {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  color: #152536;
+  margin-bottom: 1.125rem;
+}
+
+.checkbox-group ul {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #152536;
+  list-style-type: none;
+}
+
+.checks li {
+  margin-bottom: 1.125rem;
+}
+
+.checkbox {
+  margin-right: 0.5rem;
+  accent-color: #7749f8;
+}
+
+label[for="checkbox"] {
+  margin-right: 1.25rem;
+}
+
+.disable {
+  color: #abb5be;
+}
+
+.validation {
+  margin-bottom: 1.875rem;
+}
+
+.validation h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  color: #152536;
+  margin-bottom: 0.5rem;
+}
+
+#success {
+  border: 1px solid #28a745;
+}
+
+#failure {
+  border: 1px solid #dc3545;
+}

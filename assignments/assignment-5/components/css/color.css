@@ -1,0 +1,44 @@
+/* color here
+    estd time 25 mins 
+    time taken 19 mins */
+
+.color h2 {
+  font-size: 2.25rem;
+  padding-bottom: 1.6875rem;
+}
+
+.color-row {
+  padding-bottom: 3.5rem;
+}
+
+.coloritem {
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.coloritem div {
+  border-radius: 0.25rem;
+  margin-bottom: 0.4rem;
+  width: 10.375rem;
+  height: 4.5rem;
+}
+
+.coloritem h4 {
+  margin-bottom: 0.25rem;
+  font-size: 1.125rem;
+}
+
+.coloritem h5 {
+  font-weight: 300;
+  color: #6b7176;
+}
+
+#primary {
+  background-color: #7749f8;
+}
+#primary-dark {
+  background-color: #5227cc;
+}
+#primary-light {
+  background-color: #ebe5fc;
+}

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Color</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./components/css/reset.css" />
+    <link rel="stylesheet" href="./components/css/layout.css" />
+    <link rel="stylesheet" href="./components/css/style.css" />
+    <link rel="stylesheet" href="./components/css/navbar.css" />
+    <link rel="stylesheet" href="./components/css/color.css" />
+    <link rel="stylesheet" href="./components/css/typography.css" />
+    <link rel="stylesheet" href="./components/css/buttons.css" />
+    <link rel="stylesheet" href="./components/css/table.css">
+    <link rel="stylesheet" href="./components/css/listgroup.css">
+    <link rel="stylesheet" href="./components/css/form.css">
+    <link rel="stylesheet" href="./components/css/card.css">
+  </head>
+  <body>
+    <!-- navbar here
+    estd time 30 mins
+    time taken 43 mins -->
+    <header>
+      <div class="container float-parent">
+        <h2 class="float-left w-10 logo">UI KIT</h2>
+        <nav class="w-90 float-parent">
+          <div class="w-70 float-left">
+            <a href="#">Color</a>
+            <a href="./components/html/typography.html">Typography</a>
+            <a href="#">Buttons</a>
+            <a href="#">Forms</a>
+            <a href="#">List Group</a>
+            <a href="#">Table</a>
+            <a href="#">Card</a>
+          </div>
+          <form class="search float-right w-30">
+            <input type="text" placeholder="Search" />
+            <button type="submit" name="Search">Search</button>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <!-- color here
+    estd time 25 mins 
+    time taken 19 mins -->
+    <div class="container">
+      <div class="title w-100">
+        <h1>Color</h1>
+        <hr />
+      </div>
+      <div class="color">
+        <h2>Primary Color</h2>
+        <div class="color-row float-parent">
+          <div class="coloritem w-10">
+            <div class="w-100" id="primary">&nbsp;</div>
+            <h4>Primary</h4>
+            <h5>#7749F8</h5>
+          </div>
+          <div class="coloritem w-10">
+            <div class="w-100" id="primary-dark">&nbsp;</div>
+            <h4>Primary Dark</h4>
+            <h5>#5227CC</h5>
+          </div>
+          <div class="coloritem w-10">
+            <div class="w-100" id="primary-light">&nbsp;</div>
+            <h4>Primary Light</h4>
+            <h5>#EBE5FC</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- typography here 
+      estd time 20 mins
+    time taken 18mins-->
+    <div class="container">
+      <div class="title w-100">
+        <h1>Tabs</h1>
+        <hr />
+      </div>
+      <article class="w-40">
+        <ul class="tab-view float-left float-parent w-100">
+          <li class="float-left">Home</li>
+          <li class="float-left">Profile</li>
+          <li class="float-left">Contact</li>
+          <li class="float-left">&nbsp;</li>
+        </ul>
+        <p>
+          Raw denim you probably haven't heard of them jean shorts Austin.
+          Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache
+          cliche tempor, williams burg carles vegan helvetica. Reprehenderit
+          butcher retro keffiyeh dreamc atcher synth. Cosby sweater eu banh mi,
+          qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+          iphone. Seitan aliquip quis cardigan american apparel, butcher
+          voluptate nisi qui.
+        </p>
+      </article>
+    </div>
+
+    <!-- buttons here 
+      estd time 25 mins
+   32 time taken mins-->
+
+    <div class="container">
+      <div class="title w-100">
+        <h1>Buttons</h1>
+        <hr />
+      </div>
+      <div class="subtitle w-100">
+        <h3>Primary</h1>
+        <hr />
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td><div>&nbsp;</div></td>
+            <td><div>default</div></td>
+            <td><div>outline</div></td>
+          </tr>
+          <tr>
+            <td><div>default</div></td>
+            <td><div id="primary-button">primary</div></td>
+            <td><div id="outline-button">outline</div></td>
+          </tr>
+          <tr>
+            <td><div>hover</div></td>
+            <td><div id="primary-dark-button">primary</div></td>
+            <td><div id="primary-button">outline</div></td>
+          </tr>
+          <tr>
+            <td><div>focus</div></td>
+            <td><div id="primary-dark-button">primary</div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+<!-- form here 
+  estd time 70 mins
+  time taken 75 mins -->
+  <div class="container">
+    <div class="title w-100">
+      <h1>Forms</h1>
+      <hr />
+    </div>
+
+    <div class="formpage float-parent w-100">
+      <div class="components float-left w-20">
+        <h3>Components</h3>
+        <ul class="component-list">
+          <li>Color</li>
+          <li>Typography</li>
+          <li>Buttons</li>
+          <li class="active">Forms</li>
+          <li>List Group</li>
+          <li>Table</li>
+          <li>Card</li>
+        </ul>
+      </div>
+      <div class="forms float-left w-40">
+        <div class="input-box">
+          <h4>Input</h4>
+          <input class="w-70" type="text" placeholder="Placeholder">
+        </div>
+
+        <div class="input-box">
+          <h4>Select Menu</h4>
+          <select name="select" class="w-70">
+            <option value="select">Select Menu</option>
+          </select>
+        </div>
+
+        <div class="input-box">
+          <h4>Textarea</h4>
+          <textarea class="w-70" placeholder="Write your message here"></textarea>
+        </div>
+
+        <div class="input-box float-parent">
+          <h4>Checkboxes</h4>
+          <div class="checkbox-group float-left ">
+            <h4>Checkboxes</h4>
+            <ul class="checks">
+              <li>
+                <input type="checkbox" class="checkbox">
+                <label for="checkbox">Default Checkbox</label>
+              </li>
+              <li>
+                <input type="checkbox" class="checkbox" checked>
+                <label for="checkbox">Default Checkbox</label>
+              </li>
+              <li>
+                <input type="checkbox" class="checkbox" disabled>
+                <label for="checkbox" class="disable">Default (disabled)</label>
+              </li>
+            </ul>
+          </div>
+          <div class="checkbox-group float-left">
+            <h4>Checkboxes Inline</h4>
+            <ul class="checks float-parent">
+              <li class="float-left">
+                <input type="checkbox" class="checkbox">
+                <label for="checkbox">Default Checkbox</label>
+              </li>
+              <li class="float-left">
+                <input type="checkbox" class="checkbox" checked>
+                <label for="checkbox">Default Checkbox</label>
+              </li>
+              <li class="float-left">
+                <input type="checkbox" class="checkbox" disabled>
+                <label for="checkbox" class="disable">Default (disabled)</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="input-box float-parent">
+          <h4>Radios</h4>
+          <div class="checkbox-group float-left ">
+            <h4>Radios</h4>
+            <ul class="checks">
+              <li>
+                <input type="radio" class="checkbox">
+                <label for="checkbox">Default radio</label>
+              </li>
+              <li>
+                <input type="radio" class="checkbox" checked>
+                <label for="checkbox">selected radio</label>
+              </li>
+              <li>
+                <input type="radio" class="checkbox" disabled>
+                <label for="checkbox" class="disable">Default (disabled)</label>
+              </li>
+            </ul>
+          </div>
+          <div class="checkbox-group float-left">
+            <h4>Radios Inline</h4>
+            <ul class="checks float-parent">
+              <li class="float-left">
+                <input type="radio" class="checkbox">
+                <label for="checkbox">Default radio</label>
+              </li>
+              <li class="float-left">
+                <input type="radio" class="checkbox" checked>
+                <label for="checkbox">selected radio</label>
+              </li>
+              <li class="float-left">
+                <input type="radio" class="checkbox" disabled>
+                <label for="checkbox" class="disable">Default (disabled)</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <h4>Validation</h4>
+          <div class="validation">
+            <h3>Input Success</h3>
+            <input class="w-70" type="text" id="success">
+          </div>
+
+          <div class="validation">
+            <h3>Input Failure</h3>
+            <input class="w-70" type="text" id="failure">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+<!-- list group here 
+    estd time 40 mins
+    time taken 43 mins -->
+
+    <div class="container">
+      <div class="title w-100">
+        <h1>List Group</h1>
+        <hr />
+      </div>
+      <h3 class="contentsubheading">Custom content</h3>
+      <ul class="lists ">
+        <li class="active">
+          <div class="content-box">
+            <div class="w-100 content-subtitle float-parent">
+              <h3 class="float-left w-60">List group item heading</h3>
+              <span class="float-right w-40">3 days ago</span>
+            </div>    
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+              <span>Donec id elit non mi porta.</span>
+        </div>
+      </li>
+        <li class="inactive">
+          <div class="content-box">
+            <div class="w-100 content-subtitle float-parent">
+              <h3 class="float-left w-60">List group item heading</h3>
+              <span class="float-right w-40">3 days ago</span>
+            </div>  
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+              <span>Donec id elit non mi porta.</span>
+        </div>
+      </li>
+        <li class="inactive">
+          <div class="content-box">
+            <div class="w-100 content-subtitle float-parent">
+              <h3 class="float-left w-60">List group item heading</h3>
+              <span class="float-right w-40">3 days ago</span>
+            </div>
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+              <span>Donec id elit non mi porta.</span>
+        </div>
+      </li>
+      </ul>
+    </div>
+
+    <!-- tables here 
+    estd time 30 mins
+    time taken 37 mins -->
+
+    <div class="container">
+      <div class="title w-100">
+        <h1>Tables</h1>
+        <hr />
+      </div>
+      <table class="tables w-100">
+        <thead class="thead">
+          <tr class="header-row">
+            <th>#</th>
+            <th>First</th>
+            <th>Last</th>
+            <th>Handle</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          <tr class="body-row">
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+          <tr class="body-row">
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+          <tr class="body-row">
+          <td>3</td>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        </tbody>
+      </table>
+      <div class="pagination-parent float-parent w-100">
+        <div class="pagination float-right">
+          <a href="#">Prev</a>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">Next</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- cards here 
+    estd time 75 mins
+    time taken  mins -->
+
+    <div class="container">
+      <div class="title w-100">
+        <h1>Card</h1>
+        <hr />
+      </div>
+      <div class="cards w-100">
+        <div class="card1 ">
+          <div class="card-header1 float-parent">
+            <img src="./images/jpg/Avatar.png" alt="avatar" class="avatar float-left">
+            <div class="details float-left w-60">
+              <h5>Stuar Manson</h5>
+              <p>Publicado hace 2 horas</p>
+            </div>
+            <img src="./images/svg/three-dots-svgrepo-com.svg" alt="3dots" class="float-right">
+          </div>
+          <img src="./images/jpg/flower.jpg" class="w-100 flower" alt="flower">
+          <div class="card-footer">
+            <div class="likes float-parent">
+                <img class="float-left w-10" src="./images/svg/like-svgrepo-com.svg" alt="like">
+                <img class="float-left w-10" src="./images/svg/comment-svgrepo-com.svg" alt="comment">
+                <img class="float-right w-10" src="./images/svg/share-svgrepo-com.svg" alt="share">
+            </div>
+          </div>
+          <div class="comment float-parent">
+            <img src="./images/jpg/Avatar.png" alt="avatar" class="float-left">
+            <input type="text" placeholder="Enter Your Comment" class="float-left">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

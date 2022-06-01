@@ -1,0 +1,40 @@
+/* buttons here 
+estd time 25 mins
+32 time taken mins */
+
+.subtitle {
+  padding-bottom: 1rem;
+}
+.subtitle h3 {
+  padding-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #152536;
+}
+
+.subtitle hr {
+  border: 1px solid #dee2e6;
+}
+
+td div {
+  margin: 1rem 10rem 1rem 0px;
+}
+
+tr:not(:first-child) td:not(:first-child) div {
+  color: white;
+  padding: 0.625rem 1rem;
+  border-radius: 0.25rem;
+}
+
+#primary-button {
+  background-color: #7749f8;
+}
+
+#primary-dark-button {
+  background-color: #5227cc;
+}
+
+#outline-button {
+  color: #7749f8;
+  border: 1px solid #7749f8;
+}

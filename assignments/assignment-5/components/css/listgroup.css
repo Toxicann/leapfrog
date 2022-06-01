@@ -1,0 +1,64 @@
+/* list group here 
+estd time 40 mins
+time taken 43 mins */
+
+.contentsubheading {
+  padding-bottom: 1.9375rem;
+  color: #152536;
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+}
+
+.content-subtitle {
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.content-subtitle span {
+  padding-top: 0.5rem;
+  font-weight: 700;
+}
+
+.content-subtitle span {
+  font-size: 0.625rem;
+  text-align: right;
+}
+
+.content-box p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.content-box span {
+  font-size: 0.75rem;
+  line-height: 0.9075rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.lists {
+  list-style-type: none;
+  width: 22.5%;
+}
+
+.lists li {
+  padding: 0.8125rem 1rem;
+}
+
+.lists li:last-child {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.active {
+  color: white;
+  background-color: #7749f8;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.inactive {
+  border: 1px solid #dee2e6;
+}

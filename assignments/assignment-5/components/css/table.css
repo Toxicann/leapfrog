@@ -1,0 +1,53 @@
+/* tables here 
+estd time 30 mins
+time taken 37 mins */
+
+.tables {
+  border-collapse: collapse;
+  margin-bottom: 0.875rem;
+}
+
+.header-row,
+.body-row {
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.header-row th {
+  text-align: left;
+}
+
+.header-row th,
+.body-row td {
+  padding: 0.625rem;
+}
+
+thead,
+tbody td:first-child {
+  font-weight: bold;
+}
+
+.tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.pagination {
+  margin: 15px 0;
+}
+
+.pagination a {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  color: #7749f8;
+  padding: 0.75rem 0.875rem;
+}
+
+.pagination a:first-child {
+  color: #dee2e6;
+}
+
+.pagination a:nth-child(2) {
+  background-color: #7749f8;
+  color: #dee2e6;
+  border: 0;
+}
