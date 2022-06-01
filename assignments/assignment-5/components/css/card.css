@@ -1,15 +1,16 @@
 .card1 {
   width: 18%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 0.5rem;
+  margin-right: 3.75rem;
 }
 
 .card-header1 {
-  padding: 10px 18px;
+  padding: 0.625rem 1.125rem;
 }
 
 .avatar {
-  padding-right: 18px;
+  padding-right: 1.125rem;
 }
 
 .details h5 {
@@ -44,7 +45,7 @@
 
 .comment input {
   border: 1px solid #e0e0e0;
-  border-radius: 18px;
-  padding: 12px;
-  margin-left: 15px;
+  border-radius: 1.125rem;
+  padding: 0.75rem;
+  margin-left: 0.9375rem;
 }
