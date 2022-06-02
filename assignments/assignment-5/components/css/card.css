@@ -97,10 +97,16 @@
   display: inline;
 }
 
-/* .card3bottom * {
-  margin-right: 0;
-} */
+.card3bottom {
+  padding: 14px 16px;
+}
 
-.card3bottom * {
-  margin-right: 10;
+.card3bottom h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.card3bottom *:not(:last-child) {
+  margin-right: 17px;
 }
