@@ -1,5 +1,5 @@
 .card1 {
-  width: 18%;
+  width: 20%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   margin-right: 3.75rem;
@@ -98,15 +98,21 @@
 }
 
 .card3bottom {
-  padding: 14px 16px;
+  padding: 14px 0x;
 }
 
 .card3bottom h5 {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+  margin-left: 10px;
+  margin-top: 8px;
 }
 
 .card3bottom *:not(:last-child) {
-  margin-right: 17px;
+  margin-right: 5x;
+}
+
+.hearts {
+  margin-left: 20px;
 }
