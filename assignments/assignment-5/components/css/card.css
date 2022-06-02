@@ -49,3 +49,58 @@
   padding: 0.75rem;
   margin-left: 0.9375rem;
 }
+
+.card-body2 {
+  position: relative;
+}
+
+.playbutton {
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #27ae60;
+  left: 115px;
+  bottom: -20px;
+}
+
+.playbutton img {
+  text-align: center;
+  padding: 12px;
+}
+
+.card-footer2 {
+  text-align: center;
+  padding: 40px 0;
+}
+.card-footer2 p:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.card1 span {
+  background-color: #27ae60;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card3 .card-header1 {
+  padding: 16px;
+}
+
+.card3 p {
+  margin-top: 8px;
+}
+
+.card3bottom {
+  display: inline;
+}
+
+/* .card3bottom * {
+  margin-right: 0;
+} */
+
+.card3bottom * {
+  margin-right: 10;
+}
