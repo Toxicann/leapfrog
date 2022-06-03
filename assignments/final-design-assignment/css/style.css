@@ -1,0 +1,45 @@
+.pointer {
+  cursor: pointer;
+}
+
+.article--intro {
+  position: relative;
+}
+
+.header--pattern {
+  position: relative;
+}
+
+.header--pattern img {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  transform: scaleX(-1);
+}
+
+.div--union {
+  position: absolute;
+  width: 12%;
+  left: 35px;
+  top: -21px;
+  z-index: -1;
+}
+
+.union {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .header--pattern {
+    width: 100%;
+    max-height: 60px;
+  }
+
+  .header--pattern img {
+    width: 100%;
+    transform: scaleX(1);
+    top: 0px;
+    left: 0px;
+  }
+
+}

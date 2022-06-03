@@ -1,0 +1,130 @@
+.partners-details {
+  text-align: center;
+  font-weight: 600;
+  padding: 0 0 2.3125rem 0;
+  border-bottom: 2px solid #cccccc;
+  margin: 120px auto 0 auto;
+  width: 27rem;
+}
+
+.title-2 {
+  color: #0a215f;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 1rem;
+  font-family: "SF Pro Display";
+}
+
+.partners-details h3 {
+  color: #103697;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.005em;
+  margin-bottom: 4px;
+}
+
+.paragraph {
+  color: #0a215f;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.0025em;
+}
+
+.partners {
+  margin-top: 2.5rem;
+  text-align: justify;
+}
+
+.partners::after {
+  width: 100%;
+  content: "";
+  display: inline-block;
+}
+
+.partners img {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {
+  .partners-details {
+    margin: 70px auto 0 auto;
+  }
+
+  .title-2 {
+    font-size: 2.75rem;
+    line-height: 2.5rem;
+  }
+
+  .partners-details h3 {
+    color: #103697;
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+  }
+
+  .paragraph {
+    color: #0a215f;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.0025em;
+  }
+
+  .partners {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  .partners::after {
+    width: 100%;
+    content: "";
+    display: block;
+  }
+
+  .partners img {
+    display: block;
+    margin: 1.5rem auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .partners-details {
+    margin: 70px auto 0 auto;
+    width: auto;
+  }
+
+  .title-2 {
+    font-size: 2.75rem;
+    line-height: 2.5rem;
+  }
+
+  .partners-details h3 {
+    color: #103697;
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+  }
+
+  .paragraph {
+    color: #0a215f;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.0025em;
+  }
+
+  .partners {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  .partners::after {
+    width: 100%;
+    content: "";
+    display: block;
+  }
+
+  .partners img {
+    display: block;
+    margin: 1.5rem auto;
+  }
+}

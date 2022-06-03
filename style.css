@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.float-parent {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.assignments {
+}
+
+.assignment-row {
+  background-color: rgb(179, 197, 197);
+  margin: auto;
+  padding: 1rem 4rem;
+  border-radius: 10px;
+}
+
+.assignment-row h2 {
+  font-size: 2rem;
+  padding-top: 6px;
+}
+
+.assignment-details-meta {
+  margin-right: 25%;
+}
+
+.assignment-details-meta h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.assignment-details-meta h4 {
+  font-size: 1rem;
+}
+
+.buttons {
+  /* display: block; */
+  margin: auto;
+}
+
+.btn {
+  padding: 10px 16px;
+}

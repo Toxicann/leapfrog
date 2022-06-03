@@ -1,0 +1,114 @@
+.usemobile__title {
+  color: #0a215f;
+  width: 29rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15.4375rem;
+}
+
+.usemobile__title h2 {
+  font-family: "SF Pro Display";
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.0025em;
+  margin-bottom: 0.75rem;
+}
+
+.usemobile__title p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.005em;
+  margin-bottom: 2.5rem;
+}
+
+.usemobile_btn {
+  vertical-align: middle;
+}
+
+.usemobile {
+  text-align: justify;
+}
+
+.usemobile::after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+
+.usemobile_img {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {
+  .usemobile__title {
+    display: inline-block;
+    margin-top: 4.5rem;
+  }
+
+  .usemobile__title h2 {
+    font-size: 2.75rem;
+    line-height: 2.5rem;
+  }
+
+  .usemobile__title p {
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+  }
+
+  .usemobile_btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+
+  .usemobile {
+    text-align: center;
+  }
+
+  .usemobile::after {
+    display: block;
+  }
+
+  .usemobile_img {
+    display: inline-block;
+    /* width: 100%; */
+    margin-top: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .usemobile__title {
+    width: auto;
+    display: block;
+    margin-top: 4.5rem;
+  }
+
+  .usemobile__title h2 {
+    font-size: 2.75rem;
+    line-height: 2.5rem;
+  }
+
+  .usemobile__title p {
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+  }
+
+  .usemobile_btn {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .usemobile {
+    text-align: center;
+  }
+
+  .usemobile::after {
+    display: block;
+  }
+
+  .usemobile_img {
+    display: block;
+    width: 100%;
+    margin-top: 3.5rem;
+  }
+}

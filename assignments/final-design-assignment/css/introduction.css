@@ -1,0 +1,123 @@
+.introduction {
+  margin-bottom: 6.25rem;
+}
+
+.introduction__title {
+  color: #0a215f;
+  width: 30rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9rem;
+  text-align: left;
+}
+
+.introduction__title h2 {
+  font-family: "SF Pro Display";
+  font-weight: 600;
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+  letter-spacing: -0.005em;
+  margin-bottom: 0.75rem;
+}
+
+.introduction__title p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.005em;
+  margin-bottom: 2.75rem;
+}
+
+.introduction__parent {
+  text-align: justify;
+}
+
+.introduction__parent::after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+
+.play {
+  border: 1px solid #378cca;
+  border-radius: 50%;
+  padding: 0.25rem;
+}
+
+.banner {
+  display: inline-block;
+  width: 33rem;
+}
+
+.intro__play-button {
+  border-right: 2px solid #e5e5e5;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .introduction__title {
+    width: auto;
+    display: block;
+    margin-top: 9rem;
+    text-align: center;
+  }
+
+  .introduction__title h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .introduction__parent {
+    text-align: unset;
+  }
+
+  .introduction__parent::after {
+    display: block;
+    content: "";
+    width: auto;
+  }
+
+  .banner {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .intro__play-button {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .introduction__title {
+    width: auto;
+    display: block;
+    margin-top: 9rem;
+    text-align: center;
+  }
+
+  .introduction__title h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .introduction__parent {
+    text-align: unset;
+  }
+
+  .introduction__parent::after {
+    display: block;
+    content: "";
+    width: auto;
+  }
+
+  .banner {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .intro__play-button {
+    margin: 0;
+  }
+}

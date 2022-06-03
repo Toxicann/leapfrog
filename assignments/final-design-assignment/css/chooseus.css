@@ -1,0 +1,122 @@
+.chooseus {
+  /* position: relative; */
+  text-align: center;
+  width: 30rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.reason-row {
+  text-align: justify;
+}
+
+.reason-row::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.reasons {
+  text-align: center;
+  color: #0a215f;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.reasons h4 {
+  font-weight: 600;
+  font-size: 1.61rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.reasons p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.005em;
+  width: 16rem;
+}
+
+/* .vector {
+  z-index: -1;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+} */
+
+@media screen and (max-width: 1200px) {
+  .chooseus {
+    /* position: relative; */
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+  }
+
+  .reason-row {
+    text-align: justify;
+  }
+
+  .reason-row::after {
+    display: block;
+  }
+
+  .reasons {
+    text-align: center;
+    display: block;
+    margin-left: 2.5rem;
+    width: 20rem;
+    margin: 0 auto;
+  }
+
+  .reasons h4 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+
+  .reasons p {
+    font-weight: 400;
+    font-size: 1.15rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .chooseus {
+    /* position: relative; */
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+  }
+
+  .reason-row {
+    text-align: justify;
+  }
+
+  .reason-row::after {
+    display: block;
+  }
+
+  .reasons {
+    text-align: center;
+    display: block;
+    margin-left: 2.5rem;
+    margin: 0 auto;
+  }
+
+  .reasons h4 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+
+  .reasons p {
+    font-weight: 400;
+    font-size: 1.15rem;
+    width: 100%;
+  }
+}
