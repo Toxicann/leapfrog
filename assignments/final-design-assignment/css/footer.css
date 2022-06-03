@@ -74,6 +74,15 @@ footer {
   cursor: pointer;
 }
 
+.li__a {
+  cursor: pointer;
+  color: white;
+}
+
+.li__a:hover {
+  color: cadetblue;
+}
+
 @media screen and (max-width: 1200px) {
   footer {
     padding: 3.375rem 0;
