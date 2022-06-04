@@ -29,6 +29,11 @@
   color: #0a215f;
   font-weight: 500;
 }
+.nav__a:hover {
+  font-size: 1.25rem;
+  color: green;
+  font-weight: 500;
+}
 
 .nav-btn {
   width: 125px;
