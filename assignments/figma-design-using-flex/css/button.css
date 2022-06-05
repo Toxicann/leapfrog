@@ -1,0 +1,84 @@
+.btn {
+  color: #252641;
+  padding: 0.8125rem 2rem;
+  border-radius: 5rem;
+  font-size: 1.375rem;
+  line-height: 2.0625rem;
+  letter-spacing: 0.02em;
+}
+
+.btn:hover {
+  background-color: #5b72ee;
+  color: white;
+}
+
+.btn--hover:hover {
+  background-color: #252641;
+}
+
+.btn--primary {
+  background-color: white;
+  color: #6c6c6c;
+}
+
+.btn--secondary {
+  background-color: #f48c06;
+  color: white;
+}
+
+.btn--seemore {
+  border: 1px solid #f48c06;
+  color: #f48c06;
+}
+
+.btn--class {
+  color: white;
+  opacity: 90%;
+}
+
+.btn--class1 {
+  border: 1px solid white;
+}
+
+.btn--class2 {
+  background-color: #23bdee;
+}
+
+.btn--subscribe {
+  background: linear-gradient(
+    90deg,
+    rgba(84, 90, 230, 1) 0%,
+    rgba(57, 63, 207, 1) 100%
+  );
+  border: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn--subscribe:hover {
+  background: radial-gradient(
+    circle,
+    rgba(84, 90, 230, 1) 0%,
+    rgba(57, 63, 207, 1) 100%
+  );
+}
+
+@media screen and (max-width: 1200px) {
+  .btn--subscribe {
+    margin: 0 auto;
+  }
+
+  .btn--seemore {
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn--hover {
+    padding: 0.8125rem 0.35rem !important;
+  }
+
+  .btn--seemore {
+    margin: 2rem auto;
+  }
+}

@@ -1,0 +1,68 @@
+.possibility {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../images/png/possibilities_background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.possibility--description {
+  max-width: 43.75rem;
+}
+
+.possibility--description > h2 {
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 160%;
+  color: #2f327d;
+}
+
+.possibility--description > p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #696984;
+}
+
+.possibility--description > a {
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 180%;
+  text-decoration-line: underline;
+  color: #696984;
+}
+
+.possibility--showcase {
+  position: relative;
+}
+
+.possibility--showcase > img {
+  max-width: 100%;
+}
+
+/* .rectangle__blue {
+  width: 8.625rem;
+  height: 8.625rem;
+  background-color: #23bdee;
+  border-radius: 20px;
+  transform: translate(-35px, 104px);
+  z-index: -1;
+} */
+
+@media screen and (max-width: 1200px) {
+  .possibility {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .possibility--description {
+    text-align: center;
+  }
+
+  .possibility {
+    flex-wrap: wrap;
+  }
+}

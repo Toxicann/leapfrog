@@ -1,0 +1,132 @@
+footer {
+  background-color: #252641;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.375rem;
+  padding-bottom: 2.5rem;
+}
+
+.logo__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5.625rem;
+}
+
+.logo__footer > hr {
+  margin: 0 40px;
+  height: 69px;
+  border: 0.0625rem solid #626381;
+}
+.logo__footer > h4 {
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 2.0625rem;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 5.9375rem;
+}
+
+.newsletter > h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 2.4375rem;
+  letter-spacing: 0.04em;
+  color: #b2b3cf;
+  margin-bottom: 1.25rem;
+}
+
+.forms > form > input {
+  border: 1px solid #83839a;
+  background-color: #252641;
+  color: #83839a;
+}
+
+.forms > form > input::placeholder {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.04em;
+  color: #83839a;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.footer_links > a {
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 2.0625rem;
+  letter-spacing: 0.04em;
+  color: #b2b3cf;
+}
+
+.footer_links > a:hover {
+  color: #b2cfc6;
+}
+
+.footer_links > hr {
+  border: 1px solid #626381;
+  margin: 0 1.25rem;
+}
+
+.copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #b2b3cf;
+}
+
+@media screen and (max-width: 1200px) {
+  .forms > form > input {
+    margin: 0 auto 18px auto;
+  }
+
+  .footer_links {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_links > hr {
+    height: 50px;
+  }
+
+  .forms > form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .forms > form > input {
+    margin: 0 auto 18px auto;
+  }
+
+  .footer_links {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .footer_links > hr {
+    width: 200px;
+    height: 0;
+    margin: 1.25rem auto;
+  }
+
+  .forms > form {
+    display: flex;
+    flex-direction: column;
+  }
+}

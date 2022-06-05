@@ -1,0 +1,92 @@
+.introduction {
+  margin-bottom: 10rem;
+}
+
+.introduction__details {
+  margin: 0 auto;
+  max-width: 69.25rem;
+  text-align: center;
+}
+
+.introduction__details > h2 {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 180%;
+  color: #2f327d;
+  margin-bottom: 1.25rem;
+}
+
+.introduction__details > p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #696984;
+  margin-bottom: 5rem;
+}
+
+.introduction__row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.class_card {
+  width: 37.5rem;
+  height: 25rem;
+  border-radius: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.class_card > h2 {
+  margin-bottom: 1.125rem;
+}
+
+.class_card-1 {
+  background-image: url("../images/png/class1.png");
+}
+
+.class_card-2 {
+  background-image: url("../images/png/class2.png");
+}
+
+@media screen and (max-width: 1200px) {
+  .introduction {
+    margin-bottom: 6rem;
+  }
+
+  .introduction__details > p {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .introduction {
+    margin-bottom: 6rem;
+  }
+
+  .introduction__details > p {
+    margin-bottom: 3rem;
+  }
+  .introduction__row {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .class_card {
+    max-width: 37.5rem;
+    max-height: 25rem;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    background-size: cover;
+    padding: 10px 0px;
+  }
+}
