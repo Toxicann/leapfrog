@@ -46,7 +46,7 @@ const myInfo = {
 for(let i=0; i<myInfo.education.length; i++){
     let name = myInfo.education[i].name;
     let date = myInfo.education[i].enrolledDate;
-
+    console.log(`\n`);
     console.log(`Name: ${name}, Date: ${date}`);
 
 }
@@ -65,7 +65,8 @@ const searchByName = (objectName, itemName) =>{
             }
         }
 }
-
+console.log(`\n`);
+console.log("Search by Name:");
 searchByName(fruits, 'banana');
 
 const searchByKey = (object, key, item)=>{
@@ -75,7 +76,8 @@ const searchByKey = (object, key, item)=>{
         }
     }
 }
-
+console.log(`\n`);
+console.log("Search by Key:");
 searchByKey(fruits, 'name', 'apple');
 
 // Write a function that transforms an array of inputs into a new array based on a provided transformation function.
@@ -94,13 +96,14 @@ function transform(collection, tranFunc) {
     for(let items of collection){
        newArr.push(tranFunc(items))
     }
+    return newArr
 }
 
 var output = transform(numbers, function(num) {
     return num * 2;
 });
-
-console.log(newArr);
+console.log(`\n`);
+console.log(`Transformation Result: ${output}`);
 
 // Write a program to sort an array of object by a target key. The original array should remain unchanged.
 
@@ -129,11 +132,14 @@ function sortBy(array, key) {
             }
         }
     }
+    console.log(`\n`);
+    console.log(`Sorted Arr:`);
     console.log(arrayCpy);
 }
 
 
 var sorted = sortBy(arr, 'name');
+console.log(`Original Arr`);
 console.log(arr);
 
 // normalization
@@ -183,4 +189,6 @@ var normalize = (input) =>{
 
 
 normalize(input);
+console.log(`\n`);
+console.log(`Normalization`);
 console.log(output);
