@@ -154,6 +154,33 @@ var input = {
     }
 };
 
-var {1:{children}} = input;
+temp = {}
+output = {}
 
-console.log(children);
+var normalize = (input) =>{
+    for(var items in input){
+        if(input[items]['children']){
+            temp['id'] = input[items]['id'];
+            temp['name'] = input[items]['name'];
+            temp['children'] = input[items]['children'].map((object)=>{
+                return object['id'];
+            })
+            output[`${input[items]['id']}`] = temp;
+            temp = {};
+            normalize(input[items]['children']);
+            
+        }
+        else{
+            temp['id'] = input[items]['id'];
+            temp['name'] = input[items]['name'];
+            output[`${input[items]['id']}`] = temp;
+            temp = {};
+        }
+  
+    }
+
+}
+
+
+normalize(input);
+console.log(output);
