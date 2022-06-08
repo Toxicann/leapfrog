@@ -1,14 +1,6 @@
 .container {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
 }
 
 .w-10 {

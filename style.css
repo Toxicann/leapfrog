@@ -1,50 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.float-parent {
-  overflow: hidden;
+body {
+  font-family: "Michroma";
+  background-color: #ededed;
+  color: #333333;
 }
 
-a {
-  text-decoration: none;
+header {
+  padding: 40px 0;
 }
 
-.assignments {
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 15%;
+  color: #88ce02;
 }
 
-.assignment-row {
-  background-color: rgb(179, 197, 197);
-  margin: auto;
-  padding: 1rem 4rem;
+.date > h4 {
+  font-size: 12px;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  background-color: #262626;
+  padding: 10px 12px;
   border-radius: 10px;
+  margin-bottom: 10px;
+  width: 45%;
 }
 
-.assignment-row h2 {
-  font-size: 2rem;
-  padding-top: 6px;
+.assignment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.assignment-details-meta {
-  margin-right: 25%;
+.links {
+  display: flex;
+  margin-top: 10px;
 }
 
-.assignment-details-meta h3 {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
+.links > a {
+  text-decoration: none;
+  margin-right: 75px;
 }
 
-.assignment-details-meta h4 {
-  font-size: 1rem;
-}
-
-.buttons {
-  /* display: block; */
-  margin: auto;
+.assignment_content {
+  font-size: 18px;
+  color: #88ce02;
+  text-align: start;
 }
 
 .btn {
-  padding: 10px 16px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #57a818;
+}
+
+.btn:hover {
+  color: #88cd01;
+}
+
+.btn--primary {
+  background-color: #57a818;
+  color: #ededed;
+}
+
+.btn--primary:hover {
+  background-color: #88cd01;
+  color: #ededed;
+}
+
+.btn--secondary {
+  color: #ededed;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header h3 {
+  margin-bottom: 20px;
 }
