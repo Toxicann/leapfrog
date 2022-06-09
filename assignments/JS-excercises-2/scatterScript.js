@@ -20,6 +20,10 @@ class Plot {
     plot.style.left = `${this.x + 10}px`;
     plot.style.top = `${this.y}px`;
     scatterPlot.appendChild(plot);
+
+    plot.addEventListener("click", () => {
+      scatterPlot.removeChild(plot);
+    });
   }
 }
 
