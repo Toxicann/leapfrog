@@ -1,0 +1,38 @@
+body {
+  background-color: silver;
+  text-align: center;
+}
+
+#animationContainer {
+  border: 2px solid darkolivegreen;
+  margin: 50px auto 0 auto;
+  width: 1000px;
+  height: 680px;
+  position: relative;
+}
+
+#ball {
+  background-color: aqua;
+  padding: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#scatter-plot {
+  border: 2px solid darkolivegreen;
+  margin: 50px auto 0 auto;
+  width: 1000px;
+  height: 680px;
+  position: relative;
+}
+
+.plot {
+  background-color: indigo;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+}
