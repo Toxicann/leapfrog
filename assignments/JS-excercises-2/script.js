@@ -11,10 +11,6 @@ changeInterval = 2;
 let topDown = true;
 let leftRight = true;
 
-// let red = (Math.random() * 255) % 255;
-// let green = (Math.random() * 255) % 255;
-// let blue = (Math.random() * 255) % 255;
-
 const colorChange = () => {
   red = (Math.random() * 255) % 255;
   green = (Math.random() * 255) % 255;
