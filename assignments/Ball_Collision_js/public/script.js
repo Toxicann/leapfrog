@@ -96,11 +96,11 @@ function play() {
     ball.checkBorderCollision();
   });
 
-  //   setInterval(() => {
-  //     ballArray.forEach((balls) => {
-  //       balls.style.backgroundColor = "white";
-  //     });
-  //   }, 1000);
+  // setInterval(() => {
+  //   ballArray.forEach((balls) => {
+  //     balls.element.style.backgroundColor = COLOR;
+  //   });
+  // }, 4000);
 
   window.requestAnimationFrame(() => {
     play();
